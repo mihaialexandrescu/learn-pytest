@@ -1,0 +1,14 @@
+[project]
+name = "proj-xdist-01"
+version = "0.1.0"
+requires-python = ">=3.13, <3.14"
+dependencies = [
+    "httpx>=0.28.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "filelock>=3.25.2",
+    "pytest>=9.0.2",
+    "pytest-xdist>=3.8.0",
+]
